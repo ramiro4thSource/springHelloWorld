@@ -1,15 +1,11 @@
-package db;
+package myapp.db;
 
-import models.User;
-import util.SqlConn;
+//import myapp.util.SqlConn;
 
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UsersDb {
 
-
+/*
     public List<User> getUsers() {
         List<User> users = new ArrayList<User>();
         Connection conn = null;
@@ -103,7 +99,7 @@ public class UsersDb {
 
         }
         return queryDetails;
-    }
+    }*/
 
 
 }
