@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvn package && java -jar target/gs-spring-boot-0.1.0.jar'
+                bat 'mvn package && java -jar target/exerciseDbConnection-1.0-SNAPSHOT.jar'
             }
         }
     }
